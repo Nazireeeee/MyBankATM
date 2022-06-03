@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.mybank.atm">
+    <module_version install_time="1649331100035" last="true" origin="installer" specification_version="1.0">
+        <file crc="3701877700" name="config/Modules/com-mybank-atm.xml"/>
+        <file crc="906303798" name="modules/com-mybank-atm.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="registry.xsd">
+    <components>
+        <product uid="mybankatm" version="1.0.0.0.0" platforms="generic" status="not-installed" offset="20000" expand="false" built="1649331148496" visible="true" features="">
+            <display-name>
+                <default><![CDATA[myBankATM]]></default>
+            </display-name>
+            <description>
+                <default><![CDATA[]]></default>
+            </description>
+            <icon size="675" md5="64483b92ee1623c3c975086b65f92fc6">
+                <default-uri>resource:products/mybankatm/1.0.0.0.0/generic/icon.png</default-uri>
+            </icon>
+            <properties>
+                <property name="installation.location"><![CDATA[$N{install}/mybankatm]]></property>
+                <property name="installation.location.windows"><![CDATA[$N{install}/mybankatm]]></property>
+                <property name="installation.location.macosx"><![CDATA[$N{install}/mybankatm.app]]></property>
+            </properties>
+            <configuration-logic>
+                <file size="48273" md5="b9860aec3b84c9dace4212b4cbf93c6a">
+                    <default-uri>resource:products/mybankatm/1.0.0.0.0/generic/logic/logic,1.jar</default-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file size="28761440" md5="a3478b6e6ef83df2bc6a2707807c5aae">
+                    <default-uri>resource:products/mybankatm/1.0.0.0.0/generic/data/data,1.jar</default-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>51462280</disk-space>
+            </system-requirements>
+        </product>
+    </components>
+</registry>

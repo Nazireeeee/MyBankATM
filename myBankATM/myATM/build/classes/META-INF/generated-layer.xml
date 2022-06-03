@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_mybank_atm">
+                <file name="atm" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.mybank.atm.atmTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.mybank.atm//atm//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="mybank">
+                    <folder name="atm">
+                        <file name="atmTopComponent">
+                            <!--com.mybank.atm.atmTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//com_mybank_atm/atm.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_mybank_atm">
+                <file name="atm.instance">
+                    <!--com.mybank.atm.atmTopComponent-->
+                    <attr methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.mybank.atm.atmTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.mybank.atm.atmTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-mybank-atm-atmTopComponent.shadow">
+                <!--com.mybank.atm.atmTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-mybank-atm-atmTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="atmTopComponent.settings">
+                <!--com.mybank.atm.atmTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.mybank.atm.atmTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="atmTopComponent.wstcref">
+                    <!--com.mybank.atm.atmTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="atmTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-mybank-atm-atmTopComponent.instance">
+                <!--com.mybank.atm.atmTopComponent-->
+                <attr methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.mybank.atm.atmTopComponent"/>
+                <attr name="preferredID" stringvalue="atmTopComponent"/>
+                <attr bundlevalue="com.mybank.atm.Bundle#CTL_atmAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

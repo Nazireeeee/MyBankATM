@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans-13\netbeans\platform=1645463560000
+cluster.C:/Users/05/Documents/NetBeansProjects/myBankATM/build/cluster=1649330671783
+cluster.C:/Program Files/NetBeans-13/netbeans/platform=1645463560000
+user=1649330671783
+crc=7
+locale=ru_RU
+branding=mybankatm
+java.version=17.0.1
+java.vm.version=17.0.1+12-LTS-39
